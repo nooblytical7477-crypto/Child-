@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import React, { useState } from 'react';
 import { Layout } from './Layout';
 import { ImageUploader } from './components/ImageUploader';
@@ -285,6 +286,7 @@ const App: React.FC = () => {
         </div>
 
       </div>
+      <Analytics />
     </Layout>
   );
 };
