@@ -1,0 +1,7 @@
+{
+  "name": "Young Vision",
+  "description": "Rediscover your inner child. Upload a photo and let AI visualize your younger self pursuing your childhood dreams.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
